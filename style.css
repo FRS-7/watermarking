@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 520px;
+    margin: auto;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+canvas {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+.controls button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #333;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.controls button:disabled {
+    background: #aaa;
+}
+
+#output {
+    margin-top: 10px;
+    font-size: 14px;
+}
